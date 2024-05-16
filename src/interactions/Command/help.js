@@ -21,51 +21,51 @@ module.exports = {
             .addComponents(
                 new Discord.StringSelectMenuBuilder()
                     .setCustomId('Bot-helppanel')
-                    .setPlaceholder('❌┆Nothing selected')
+                    .setPlaceholder('<a:info:1240401708799230004>┆Nothing selected')
                     .addOptions([
                         {
                             label: `Commands`,
                             description: `Show the commands of Bot!`,
-                            emoji: "💻",
+                            emoji: "<:commands:1240401187333865594>",
                             value: "commands-Bothelp",
                         },
                         {
                             label: `Invite`,
                             description: `Invite Bot to your server`,
-                            emoji: "📨",
+                            emoji: "<:invitesss:1240749167530348554>",
                             value: "invite-Bothelp",
                         },
                         {
                             label: `Support server`,
                             description: `Join the suppport server`,
-                            emoji: "❓",
+                            emoji: "<:Support:1239465172524077087>",
                             value: "support-Bothelp",
                         },
                         {
                             label: `Changelogs`,
                             description: `Show the bot changelogs`,
-                            emoji: "📃",
+                            emoji: "<a:logserver:1240749850082148392>",
                             value: "changelogs-Bothelp",
                         },
                     ]),
             );
 
         return client.embed({
-            title: `❓・Help panel`,
+            title: `<:commands:1240401187333865594>・Help panel`,
             desc: `Welcome to Bot's help panel! We have made a small overview to help you! Make a choice via the menu below`,
-            image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
+            image: "https://cdn.discordapp.com/attachments/1235849726780379148/1240750173500608563/d601713de8002b9be1d0c1d72b60c759.jpg?ex=6647b225&is=664660a5&hm=614651533ddd22713c354e819b79e6b6c5125f5d8ba829af4349e8e4d71130ac&",
             fields: [
                 {
-                    name: `❌┆Menu doesn't work?`,
+                    name: `<a:Utility:1240400629013418096>┆Menu doesn't work?`,
                     value: `Try resending the command. If you get no reaction, make sure you report the bug!`
                 },
                 {
-                    name: `🪲┆Found a bug?`,
+                    name: `<a:bug:1240747649762594877>┆Found a bug?`,
                     value: `Report this with \`/report bug\``
                 },
                 {
                     name: `🔗┆Links`,
-                    value: `[Website](https://corwindev.nl/) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`
+                    value: `[insta](https://www.instagram.com/yuta.xae?igsh=MTVzenNodGt3MmE5cw==) | [Invite](${client.config.discord.botInvite}) | [discord](https://discord.com/invite/sbFJCnQzJz)`
                 },
             ],
             components: [row],
