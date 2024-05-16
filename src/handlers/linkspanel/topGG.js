@@ -45,8 +45,8 @@ module.exports = async (client) => {
                     .addComponents(
 
                         new Discord.ButtonBuilder()
-                            .setLabel("Vote Now")
-                            .setURL("https://top.gg/bot/798144456528363550/vote")
+                            .setLabel("insta")
+                            .setURL("https://www.instagram.com/yuta.xae?igsh=MTVzenNodGt3MmE5cw==")
                             .setStyle(Discord.ButtonStyle.Link),
                     );
 
