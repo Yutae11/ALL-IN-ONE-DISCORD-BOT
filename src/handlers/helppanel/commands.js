@@ -3,152 +3,152 @@ const Discord = require('discord.js');
 module.exports = async (client) => {
     const fields = [
         {
-            name: `📺┆Activities`,
+            name: `<:icons_activities:1240751535965863947>┆Activities`,
             value: `\`/activities\``,
             inline: true
         },
         {
-            name: `🚫┆AFK`,
+            name: `<:afk5:1240751681960935486>┆AFK`,
             value: `\`/afk help\``,
             inline: true
         },
         {
-            name: `📣┆Announcement`,
+            name: `<a:ANNOUNCEMENT:1240751841717784707>┆Announcement`,
             value: `\`/announcement help\``,
             inline: true
         },
         {
-            name: `👮‍♂️┆Auto mod`,
+            name: `<:AutoMod:1240751915999170590>┆Auto mod`,
             value: `\`/automod help\``,
             inline: true
         },
         {
-            name: `⚙️┆Auto setup`,
+            name: `<a:Utility:1240400629013418096>┆Auto setup`,
             value: `\`/autosetup help\``,
             inline: true
         },
         {
-            name: `🎂┆Birthday`,
+            name: `<:happy_birthday:1240752009842524280>┆Birthday`,
             value: `\`/birthdays help\``,
             inline: true
         },
         {
-            name: `🤖┆Bot`,
+            name: `<a:bots:1240752120257450134>┆Bot`,
             value: `\`/bot help\``,
             inline: true
         },
         {
-            name: `🎰┆Casino`,
+            name: `<a:casino:1240752294694490113>┆Casino`,
             value: `\`/casino help\``,
             inline: true
         },
         {
-            name: `⚙┆Configuration`,
+            name: `<a:Utility:1240400629013418096>┆Configuration`,
             value: `\`/config help\``,
             inline: true
         },
         {
-            name: `💻┆Custom commands`,
+            name: `<:Commands:1240401083914780743>┆Custom commands`,
             value: `\`/custom-commands help\``,
             inline: true
         },
         {
-            name: `💳┆Dcredits`,
+            name: `<a:Dcredits:1240752657354850336>┆Dcredits`,
             value: `\`/dcredits help\``,
             inline: true
         },
         {
-            name: `💰┆Economy`,
+            name: `<:Economy:1240752742708809770>┆Economy`,
             value: `\`/economy help\``,
             inline: true
         },
         {
-            name: `👪┆Family`,
+            name: `<:family:1240752878746992672>┆Family`,
             value: `\`/family help\``,
             inline: true
         },
         {
-            name: `😂┆Fun`,
+            name: `<:funwaa:1240755140538007602>┆Fun`,
             value: `\`/fun help\``,
             inline: true
         },
         {
-            name: `🎮┆Games`,
+            name: `<a:games:1240753006081867787>┆Games`,
             value: `\`/games help\``,
             inline: true
         },
         {
-            name: `🥳┆Giveaway`,
+            name: `<a:giveaway:1240755355655602326>┆Giveaway`,
             value: `\`/giveaway help\``,
             inline: true
         },
         {
-            name: `⚙️┆Guild settings`,
+            name: `<a:Utility:1240400629013418096>┆Guild settings`,
             value: `\`/guild help\``,
             inline: true
         },
         {
-            name: `🖼┆Images`,
+            name: `<:image:1240753230971928670>┆Images`,
             value: `\`/images help\``,
             inline: true
         },
         {
-            name: `📨┆Invites`,
+            name: `<:invitesss:1240749167530348554>┆Invites`,
             value: `\`/invites help\``,
             inline: true
         },
         {
-            name: `🆙┆Leveling`,
+            name: `<:leveling:1240753525995343954>┆Leveling`,
             value: `\`/levels help\``,
             inline: true
         },
         {
-            name: `💬┆Messages`,
+            name: `<:message:1240753767683723285>┆Messages`,
             value: `\`/messages help\``,
             inline: true
         },
         {
-            name: `👔┆Moderation`,
+            name: `<:moderation:1240753675949969580>┆Moderation`,
             value: `\`/moderation help\``,
             inline: true
         },
         {
-            name: `🎶┆Music`,
+            name: `<a:music:1240755806845010033>┆Music`,
             value: `\`/music help\``,
             inline: true
         },
         {
-            name: `📓┆Notepad`,
+            name: `<:notepad:1240753972818608278>┆Notepad`,
             value: `\`/notepad help\``,
             inline: true
         },
         {
-            name: `👤┆Profile`,
+            name: `<:profile:1240757878051176448>┆Profile`,
             value: `\`/profile help\``,
             inline: true
         },
         {
-            name: `📻┆Radio`,
+            name: `<a:radio:1240758006996795403>┆Radio`,
             value: `\`/radio help\``,
             inline: true
         },
         {
-            name: `😛┆Reaction roles`,
+            name: `<a:reaction:1240758156976455763>┆Reaction roles`,
             value: `\`/reactionroles help\``,
             inline: true
         },
         {
-            name: `🔍┆Search`,
+            name: `<a:searching:1240758471637336234>┆Search`,
             value: `\`/search help\``,
             inline: true
         },
         {
-            name: `📊┆Server stats`,
+            name: `<:stats:1240758644144865360>┆Server stats`,
             value: `\`/serverstats help\``,
             inline: true
         },
         {
-            name: `⚙️┆Setup`,
+            name: `<a:Utility:1240400629013418096>┆Setup`,
             value: `\`/setup help\``,
             inline: true
         },
@@ -158,7 +158,7 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `🗨️┆Sticky messages`,
+            name: `<:message:1240753767683723285>┆Sticky messages`,
             value: `\`/stickymessages help\``,
             inline: true
         },
@@ -178,7 +178,7 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `⚒️┆Tools`,
+            name: `<a:Utility:1240400629013418096>┆Tools`,
             value: `\`/tools help\``,
             inline: true
         },
@@ -229,32 +229,32 @@ module.exports = async (client) => {
                                 {
                                     label: `Commands`,
                                     description: `Show the commands of Bot!`,
-                                    emoji: "💻",
+                                    emoji: "<:Commands:1240401083914780743>",
                                     value: "commands-Bothelp",
                                 },
                                 {
                                     label: `Invite`,
                                     description: `Invite Bot to your server`,
-                                    emoji: "📨",
+                                    emoji: "<:invitesss:1240749167530348554>",
                                     value: "invite-Bothelp",
                                 },
                                 {
                                     label: `Support server`,
                                     description: `Join the suppport server`,
-                                    emoji: "❓",
+                                    emoji: "<:Support:1239465172524077087>",
                                     value: "support-Bothelp",
                                 },
                                 {
                                     label: `Changelogs`,
                                     description: `Show the bot changelogs`,
-                                    emoji: "📃",
+                                    emoji: "<:Commands:1240401083914780743>",
                                     value: "changelogs-Bothelp",
                                 },
                             ]),
                     );
 
                 client.embed({
-                    title: `❓・Help panel`,
+                    title: `<:Commands:1240401083914780743>・Help panel`,
                     desc: `View all command categories in the bot here! \n\n[Website](https://corwindev.nl) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
                     fields: fields.slice(0, 24),
